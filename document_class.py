@@ -10,6 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 class DOCUMENT:
+
     def create_folder (self, base_path, prefix):
         if not os.path.exists(base_path):
             os.makedirs(base_path)
@@ -75,3 +76,5 @@ class DOCUMENT:
         plt.clf() #clear the current figure
         plt.imshow(image_array) 
         plt.show()
+
+        
