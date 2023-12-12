@@ -96,6 +96,7 @@ class CAMERA:
                 #self.plot_frame(frame)
                 #self.save_image_data(frame, image_folder_path)
 
+    # need to do actual work to save each frame as a array & and then save in the dictionary
     def multi_frames_capture(self, camera_id, frame_limit, folder_path):
         with Vimba.get_instance(): #ensure vimba API is started
             with self.cams[camera_id] as cam:
@@ -110,6 +111,7 @@ class CAMERA:
         image_array = np.copy(frame.as_numpy_ndarray())
         return image_array
         
+
 
 
 # Usage
