@@ -12,7 +12,7 @@ class SLICE_QTC:
     def set_temp(self, temp):
         msg = "TempSet 3 " + str(temp) + " \r"
         self.slice_qtc.write(str.encode(msg))
-        print(self.slice_qtc.readline())
+        #print(self.slice_qtc.readline())
     
     def read_temp(self):
         msg = "Temp? 3\r"
