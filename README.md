@@ -6,5 +6,7 @@ This folder includes all of the pieces of equipment in the lab
 2. 729 nm Laser
 3. Camera
 4. Slice (set & test temperature)
-   
+5. DDG
+6. 
+
    
