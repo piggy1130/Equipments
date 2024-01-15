@@ -7,6 +7,6 @@ This folder includes all of the pieces of equipment in the lab
 3. Camera
 4. Slice (set & test temperature)
 5. DDG
-6. 
+6. dye laser  
 
    
