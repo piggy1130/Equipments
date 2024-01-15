@@ -9,4 +9,4 @@ This folder includes all of the pieces of equipment in the lab
 5. DDG
 6. dye laser  
 7. scope  
-   
+8. shutter     
