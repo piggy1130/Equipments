@@ -70,20 +70,11 @@ class DOCUMENT:
     def convert_array_to_frame(self, array):
         frame = np.copy(array)
         return frame
-                
+        
+        
     def plot_image(self, image_array):
         plt.clf() #clear the current figure
         plt.imshow(image_array) 
         plt.show()
 
         
-# create folder for - data
-# document = DOCUMENT()
-# info_dict = {}
-# basefolder_path = r'C:\Users\zhoul\OneDrive\Desktop'
-# basefolder_path = "/home/zhoulabspec/smb_mount/Spectra"
-# basefolder_path = r'\home\zhoulabspec\smb_mount\Spectra'
-# new_folder_path = document.create_folder(basefolder_path, "dataset")
-# # save ditionary into file
-# file_path = document.create_file(new_folder_path, "file", 'pkl')
-# document.write_dict_to_file(file_path, info_dict)
